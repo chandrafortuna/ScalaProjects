@@ -18,7 +18,7 @@ object TechnicalAssessment1 {
       for (line <- Source.fromFile(filename).getLines) {
           file_data += line.toInt
       }
-    return file_data
+    return file_data 
   }
   
   def sortAge(sorted_age:ArrayBuffer[Int]) : ArrayBuffer[Int] = {
